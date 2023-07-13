@@ -1,35 +1,40 @@
-<!DOCTYPE >
-
-<html>
-    <head>
-    <meta chatset="utf-8"/>
-    <title> 오늘의 정명사상 </title>
-        당신을 위한 오늘의 정명사상
-    </head>
-    <body>
-    <h2>당신을 위한 오늘의 정명사상</h2>
-
-
-
-    <script>
-        // 링크 주소를 배열에 저장합니다.
-        var links = [
-       
-          "https://milkbomb89.github.io/sam-campaign2/",
-          "https://milkbomb89.github.io/sam-campaign3/",
-          "https://milkbomb89.github.io/sam-campaign4/",
-          "https://milkbomb89.github.io/sam-campaign5/",
-          "https://milkbomb89.github.io/sam-campaign6/",
-          "https://milkbomb89.github.io/sam-campaign7/",
-        
-        ];
-      
-        // 랜덤한 인덱스를 선택합니다.
-        var randomIndex = Math.floor(Math.random() * links.length);
-      
-        // 이미지와 링크를 HTML 코드에 삽입합니다.
-        document.write("<a href='" + links[randomIndex] + "'><img src='정명사상 카드/정명사상 카드뒷면.png'></a>");
-      </script>
-        
-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 정명사상</title>
+</head>
+<link rel="stylesheet" href="./index.css">
+<body>
+    <div class="container">
+        <div class="img">
+            <script>
+                // 링크 주소를 배열에 저장합니다.
+                var links = [
+               
+                  "https://milkbomb89.github.io/sam-campaign2/",
+                  "https://milkbomb89.github.io/sam-campaign3/",
+                  "https://milkbomb89.github.io/sam-campaign4/",
+                  "https://milkbomb89.github.io/sam-campaign5/",
+                  "https://milkbomb89.github.io/sam-campaign6/",
+                  "https://milkbomb89.github.io/sam-campaign7/",
+                
+                ];
+              
+                // 랜덤한 인덱스를 선택합니다.
+                var randomIndex = Math.floor(Math.random() * links.length);
+              
+                // 이미지와 링크를 HTML 코드에 삽입합니다.
+                document.write("<a href='" + links[randomIndex] + "'><img src='./정명사상 카드.gif'></a>");
+              </script>
+              
+        </div>
+        <div class="logo">
+            <img src="./삼천리 로고_배경없음.png" alt="">
+        </div>
+    </div>
+    
+</body>
 </html>
