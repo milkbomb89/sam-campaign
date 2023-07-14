@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 900px;
+    background-color: #fff04c;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header{
+    color: #003399;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.img{
+    border: 2px solid gray;
+    
+}
+
+.logo{
+    border: 2px solid gray;
+    padding: 5px;
+}
