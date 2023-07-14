@@ -18,16 +18,15 @@
 
 .header{
     color: #003399;
-    border: 2px solid gray;
+    
     padding: 10px;
 }
 
 .img{
-    border: 2px solid gray;
-    
+   
 }
 
 .logo{
-    border: 2px solid gray;
+
     padding: 5px;
 }
