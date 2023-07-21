@@ -1,3 +1,35 @@
 *{
     box-sizing:border-box;
 }
+
+.item-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    padding: 20px;
+}
+
+.hilight{
+    display: flex;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    position: relative;
+}
