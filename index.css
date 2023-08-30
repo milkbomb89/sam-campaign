@@ -29,15 +29,6 @@
     margin-top: 50px;
 }
 
-@media screen and (max-width: 480px) {
-
-
-.img{
-    width: 150;
-    height: 214;
-}
-}
-
 @media screen and(max-width: 600px) {
 
     .img{
@@ -45,3 +36,12 @@
         height: 357;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+
+    .img{
+        width: 150;
+        height: 214;
+    }
+    }
