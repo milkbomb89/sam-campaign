@@ -23,11 +23,19 @@
     padding: 10px;
 }
 
-.img{
- 
-}
 
 .logo{
  
     padding: 5px;
 }
+
+@media screen and (max-width: 480px) {
+    *{
+        background-color: red;
+    }
+
+.img{
+    width: 150px;
+    height: 200px;
+}
+} 
