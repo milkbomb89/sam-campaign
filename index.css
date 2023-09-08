@@ -27,14 +27,16 @@
     margin-top: 5%;
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (width<1000px) {
     .img img{
-        width: 150px;
-        height: 215px;
+        width: 250px;
+        height: auto;
+        margin-top: 30%;
     }
+
     .logo img{
-        width: 86px;
-        height: auto
+        width: 143px;
+        height: auto;
+        margin-top: 25%;
     }
 }
